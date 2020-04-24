@@ -1,0 +1,22 @@
+{
+  "name": "drop/module-hide-checkout-tax",
+  "description": "Let the user choose hide the tax line on cart/checkout",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "a.pomili@drop.it",
+      "name": "Alessandro Pomili"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Drop\\HideCheckoutTax\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

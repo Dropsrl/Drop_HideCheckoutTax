@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+        <type name="Magento\Checkout\Block\Cart\CartTotalsProcessor">
+            <plugin name="TaxCartDisable" type="Drop\HideCheckoutTax\Plugin\Cart\CartTotalsProcessorPlugin"/>
+        </type>
+        <type name="Magento\Checkout\Block\Checkout\TotalsProcessor">
+            <plugin name="TaxCheckoutDisable" type="Drop\HideCheckoutTax\Plugin\Checkout\TotalsProcessorPlugin"/>
+        </type>
+</config>
+
